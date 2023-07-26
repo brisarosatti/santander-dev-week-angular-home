@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { enviroment } from '../environments/environment';
+import { environment } from '../environments/environment';
 
 @Injectable({
 	providedIn: 'root'
 })
 export class FeaturesService {
 
-	private apiUrl = enviroment.API_URL;
+	private apiUrl = environment.API_URL;
 
 	constructor(private http: HttpClient) { }
 
