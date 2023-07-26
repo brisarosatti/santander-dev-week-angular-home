@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './carousel-items.component.html',
   styleUrls: ['./carousel-items.component.css']
 })
-export class carouselItemsComponent {
+export class CarouselItemsComponent {
 
 }

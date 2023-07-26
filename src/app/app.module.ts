@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
-import { carouselItemsComponent } from './components/carousel-items/carousel-items.component';
+import { CarouselItemsComponent } from './components/carousel-items/carousel-items.component';
 import { AmountBoxComponent } from './components/amount-box/amount-box.component';
 
 @NgModule({
@@ -18,7 +18,7 @@ import { AmountBoxComponent } from './components/amount-box/amount-box.component
   HomeComponent,
   HeaderComponent,
   CardBoxComponent,
-  carouselItemsComponent,
+  CarouselItemsComponent,
   AmountBoxComponent,
 	],
 	imports: [
