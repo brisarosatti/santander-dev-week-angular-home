@@ -10,7 +10,7 @@ import { AccountsService } from '../../services/accounts.service';
 })
 export class CardBoxComponent implements OnInit {
 	accountData: AccountDataModel = {
-		name: "Brisa Rosatti",
+		name: "",
 		account: {
 			agency: "0000",
 			number: "00.000000-0"
